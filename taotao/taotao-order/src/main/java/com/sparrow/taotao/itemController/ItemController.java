@@ -34,8 +34,6 @@ public class ItemController {
     private OrderItemService orderItemService;
 
 
-
-
     // http://localhost:8080/item/addItem?title=手机&sellPoint=便宜&price=200&num=1&image=www.baidu.com&cid=560&status=1
     @ResponseBody
     @RequestMapping("/addItem")

@@ -28,4 +28,7 @@ public interface ContentCategoryMapper {
     int updateByPrimaryKeySelective(ContentCategory record);
 
     int updateByPrimaryKey(ContentCategory record);
+
+
+    List<ContentCategory> selectByParentId(ContentCategory contentCategory);
 }

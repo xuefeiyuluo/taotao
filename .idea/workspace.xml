@@ -1,7 +1,227 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3324cc79-1ff2-4fc4-9b97-cc8f7b0e6e24" name="Default" comment="" />
+    <list default="true" id="3324cc79-1ff2-4fc4-9b97-cc8f7b0e6e24" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/target/classes/com/sparrow/taotao/MyBatisSuperModel.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/target/classes/com/sparrow/taotao/interceptor/MyBaitsPageInterceptor$ReflectUtil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/target/classes/com/sparrow/taotao/interceptor/MyBaitsPageInterceptor.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/target/classes/com/sparrow/taotao/utils/JsonFormat.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/com/sparrow/taotao/itemController/ItemController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/com/sparrow/taotao/orderController/OrderController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order.war" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/com/sparrow/taotao/itemController/ItemController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/com/sparrow/taotao/orderController/OrderController.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/aopalliance-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/aspectjweaver-1.8.9.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/c3p0-0.9.5.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/commons-dbcp-1.2.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/commons-logging-1.2.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/commons-pool-1.3.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/fastjson-1.1.41.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/freemarker-2.3.22.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/jackson-annotations-2.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/jackson-core-2.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/jackson-databind-2.7.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/log4j-1.2.17.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/mchange-commons-java-0.2.11.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/mybatis-3.4.6.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/mybatis-spring-1.3.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/mysql-connector-java-8.0.13.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/protobuf-java-3.6.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/slf4j-api-1.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/slf4j-log4j12-1.7.7.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-aop-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-aspects-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-beans-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-context-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-context-support-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-core-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-expression-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-jdbc-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-test-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-tx-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-web-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/spring-webmvc-4.2.6.RELEASE.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/taotao-common-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/taotao-pojo-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/lib/taotao-service-1.0-SNAPSHOT.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/Content.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentCategory.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentCategoryExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentCategoryExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentCategoryExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentCategoryExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ContentExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/Item.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemCat.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemCatExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemCatExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemCatExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemCatExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemDesc.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemDescExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemDescExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemDescExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemDescExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParam.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamItemExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamItemExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamItemExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/ItemParamItemExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/Order.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderItem.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderItemExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderItemExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderItemExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderItemExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderShipping.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderShippingExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderShippingExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderShippingExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/OrderShippingExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/User.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/UserExample$Criteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/UserExample$Criterion.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/UserExample$GeneratedCriteria.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/UserExample.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/target/classes/com/sparrow/taotao/test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ContentCategoryMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ContentMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ItemCatMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ItemDescMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ItemMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ItemParamItemMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/ItemParamMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/OrderItemMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/OrderMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/OrderShippingMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/dao/UserMapper.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/ItemCatSerVice.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/ItemService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/OrderItemService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/OrderService.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/impl/ItemCatSerViceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/impl/ItemServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/impl/OrderItemServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/service/impl/OrderServiceImpl.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/MyBatisSuperModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/interceptor/MyBaitsPageInterceptor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/utils/JsonFormat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-common/taotao-common.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/contentController/contentController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/itemController/ItemController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/orderController/OrderController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/resources/mybatis/SqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/resources/resource/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/resources/resource/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/resources/spring/applicationContext-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/resources/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/webapp/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/src/main/webapp/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/taotao-order.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/mybatis/SqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/resource/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/resource/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/spring/applicationContext-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/classes/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/mybatis/SqlMapConfig.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/resource/db.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/resource/log4j.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/spring/applicationContext-config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/classes/spring/springmvc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/WEB-INF/web.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-order/target/taotao-order/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/Content.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentCategoryExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/Item.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemCat.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemCatExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemDesc.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemDescExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemParamExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemParamItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ItemParamItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/Order.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/OrderExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/OrderItem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/OrderItemExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/OrderShipping.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/OrderShippingExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/UserExample.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-pojo/taotao-pojo.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentCategoryMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemCatMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemDescMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemParamItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemParamMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderItemMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderShippingMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentCategoryMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemCatMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemDescMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderShippingMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ContentCategoryService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ItemCatSerVice.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ItemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/OrderItemService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/OrderService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ItemCatSerViceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ItemServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/OrderItemServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/OrderServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/taotao-service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ContentCategoryMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ContentMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ItemCatMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ItemDescMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ItemParamItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/ItemParamMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/OrderItemMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/OrderMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/OrderShippingMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao-service/target/classes/com/sparrow/taotao/mapper/UserMapper.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/taotao/taotao.iml" />
+    </list>
     <ignored path="$PROJECT_DIR$/taotao/target/" />
     <ignored path="$PROJECT_DIR$/taotao/taotao-order/target/" />
     <ignored path="$PROJECT_DIR$/taotao/taotao-common/target/" />
@@ -16,7 +236,30 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="contentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/contentController/contentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="123" column="58" lean-forward="true" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContentCategoryServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ContentCategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="22" column="82" lean-forward="true" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,13 +272,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>mysql-connector-java</find>
-      <find>BaseResultMap</find>
       <find>Base_Column_ListBase_Column_Lis`</find>
       <find>Base_Column_List</find>
       <find>parameterType</find>
       <find>resultMap</find>
       <find>Reference</find>
-      <find>selectByPrimaryKey</find>
       <find>OrderMapper</find>
       <find>findByOrderid</find>
       <find>pojo</find>
@@ -48,7 +289,13 @@
       <find>orderItemService</find>
       <find>insert</find>
       <find>insertSelective</find>
+      <find>BaseResultMap</find>
+      <find>contentCategoryService</find>
+      <find>selectByPrimaryKey</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/taotao" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -58,9 +305,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemDescMapper.java" />
-        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemMapper.java" />
-        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamItemMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderItemMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderShippingMapper.java" />
@@ -76,7 +320,6 @@
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/OrderMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentMapper.java" />
-        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentCategoryMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemDescMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemParamItemMapper.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemParamMapper.java" />
@@ -88,7 +331,6 @@
         <option value="$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/interceptor/MyBaitsPageInterceptor.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/orderController/OrderController.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemMapper.java" />
-        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamItemMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemParamMapper.xml" />
@@ -108,7 +350,12 @@
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ItemDescMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ItemService.java" />
         <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ItemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentCategoryMapper.java" />
+        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentCategoryMapper.xml" />
         <option value="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/itemController/ItemController.java" />
+        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ContentCategoryService.java" />
+        <option value="$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ContentCategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/contentController/contentController.java" />
       </list>
     </option>
   </component>
@@ -129,10 +376,12 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="65" />
-    <option name="width" value="1279" />
-    <option name="height" value="677" />
+    <option name="y" value="72" />
+    <option name="width" value="1239" />
+    <option name="height" value="670" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -149,8 +398,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,6 +566,76 @@
               <option name="myItemId" value="taotao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-pojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-pojo" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -333,9 +651,86 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-order" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="taotao-common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -939,12 +1334,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="taotao-order:war" />
-        </option>
-      </method>
+      <method />
     </configuration>
     <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
@@ -971,12 +1361,16 @@
       <workItem from="1548338288168" duration="4161000" />
       <workItem from="1548381453729" duration="12417000" />
       <workItem from="1548640686753" duration="10107000" />
-      <workItem from="1548725912492" duration="231000" />
+      <workItem from="1548725912492" duration="3961000" />
+      <workItem from="1548812775986" duration="11889000" />
+      <workItem from="1548898774261" duration="361000" />
+      <workItem from="1548985288479" duration="177000" />
+      <workItem from="1550214588700" duration="5425000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69347000" />
+    <option name="totallyTimeSpent" value="90929000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -988,7 +1382,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="65" width="1279" height="677" extended-state="0" />
+    <frame x="0" y="72" width="1239" height="670" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1002,17 +1397,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25641027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24740484" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35185185" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962963" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23362975" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25647452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1071,7 +1466,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="51" />
+      <option name="time" value="62" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1080,43 +1475,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderShippingMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/test.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.2.6.RELEASE/spring-aop-4.2.6.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="165" column="0" lean-forward="false" selection-start-line="165" selection-start-column="0" selection-end-line="165" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/4.2.6.RELEASE/spring-tx-4.2.6.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="149" column="0" lean-forward="false" selection-start-line="149" selection-start-column="0" selection-end-line="149" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/test.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5.jar!/javax/servlet/http/HttpServlet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao/taotao-order/src/main/resources/mybatis/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1127,20 +1485,6 @@
     <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/OrderMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentCategory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentCategoryMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
           <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
@@ -1170,23 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentCategoryMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding>
-            <marker date="1548324796442" expanded="true" signature="3892:4006" ph="select from tb_content_category" />
-            <marker date="1548324796442" expanded="true" signature="4089:4157" ph="delete from " />
-            <marker date="1548324796442" expanded="true" signature="4264:4295" ph="delete from " />
-            <marker date="1548324796442" expanded="true" signature="4478:4845" ph="insert into tb_content_category... " />
-            <marker date="1548324796442" expanded="true" signature="6396:6436" ph="select count... tb_content_category" />
-            <marker date="1548324796442" expanded="true" signature="7666:8100" ph="update tb_co... " />
-            <marker date="1548324796442" expanded="true" signature="8314:9051" ph="update tb_co... " />
-            <marker date="1548324796442" expanded="true" signature="9154:9535" ph="update tb_co... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1315,9 +1642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1325,14 +1649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1374,9 +1690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="23" lean-forward="true" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1391,13 +1704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
           <caret line="43" column="19" lean-forward="false" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="132" column="0" lean-forward="false" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1429,7 +1735,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1490,14 +1795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="62" lean-forward="true" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/utils/JsonFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1520,14 +1817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ItemService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ItemParamItemMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -1542,18 +1831,136 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-common/src/main/java/com/sparrow/taotao/utils/JsonFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ItemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="12" lean-forward="false" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/OrderService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ItemServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-41">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        <state relative-caret-position="362">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10493">
+          <caret line="713" column="48" lean-forward="true" selection-start-line="713" selection-start-column="48" selection-end-line="713" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/Content.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentCategoryExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="35" lean-forward="true" selection-start-line="7" selection-start-column="35" selection-end-line="7" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/itemController/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="81" column="26" lean-forward="true" selection-start-line="81" selection-start-column="26" selection-end-line="81" selection-end-column="26" />
+        <state relative-caret-position="-1084">
+          <caret line="33" column="46" lean-forward="false" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-pojo/src/main/java/com/sparrow/taotao/ContentCategory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="19" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.6.RELEASE/spring-web-4.2.6.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="138" column="0" lean-forward="false" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/mapper/ContentCategoryMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3757">
+          <caret line="221" column="41" lean-forward="false" selection-start-line="221" selection-start-column="14" selection-end-line="221" selection-end-column="41" />
+          <folding>
+            <marker date="1548829236805" expanded="true" signature="3892:4006" ph="select from tb_content_category" />
+            <marker date="1548829236805" expanded="true" signature="4089:4157" ph="delete from " />
+            <marker date="1548829236805" expanded="true" signature="4264:4295" ph="delete from " />
+            <marker date="1548829236805" expanded="true" signature="4519:4886" ph="insert into tb_content_category... " />
+            <marker date="1548829236805" expanded="true" signature="6437:6477" ph="select count... tb_content_category" />
+            <marker date="1548829236805" expanded="true" signature="7707:8141" ph="update tb_co... " />
+            <marker date="1548829236805" expanded="true" signature="8355:9092" ph="update tb_co... " />
+            <marker date="1548829236805" expanded="true" signature="9195:9576" ph="update tb_co... " />
+            <marker date="1548829236805" expanded="true" signature="9705:9799" ph="SELECT * FRO... tb_content_category" />
+            <marker date="1548829236805" expanded="true" signature="9705:9810" ph="SELECT * FRO... tb_content_category" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/ContentCategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-order/src/main/java/com/sparrow/taotao/contentController/contentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="123" column="58" lean-forward="true" selection-start-line="123" selection-start-column="58" selection-end-line="123" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/dao/ContentCategoryMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/taotao/taotao-service/src/main/java/com/sparrow/taotao/service/impl/ContentCategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="22" column="82" lean-forward="true" selection-start-line="22" selection-start-column="82" selection-end-line="22" selection-end-column="82" />
           <folding />
         </state>
       </provider>

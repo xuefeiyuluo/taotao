@@ -104,7 +104,7 @@
       <include refid="Example_Where_Clause" />
     </if>
   </delete>
-  <insert id="insert" parameterType="com.sparrow.taotao.ContentCategory">
+  <insert id="insert" parameterType="com.sparrow.taotao.ContentCategory" useGeneratedKeys="true" keyProperty="id">
     insert into tb_content_category (id, parent_id, name, 
       status, sort_order, is_parent, 
       created, updated)
@@ -257,4 +257,9 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+
+  <select id="selectByParentId" parameterType="com.sparrow.taotao.ContentCategory" resultMap="BaseResultMap">
+    SELECT * FROM tb_content_category category WHERE category.parent_id = #{parentId} AND category.status = 1
+  </select>
 </mapper>
