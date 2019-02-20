@@ -74,18 +74,18 @@
     id, username, password, phone, email, created, updated
   </sql>
   <select id="selectByExample" parameterType="com.sparrow.taotao.UserExample" resultMap="BaseResultMap">
-    select
-    <if test="distinct">
-      distinct
-    </if>
-    <include refid="Base_Column_List" />
-    from tb_user
-    <if test="_parameter != null">
-      <include refid="Example_Where_Clause" />
-    </if>
-    <if test="orderByClause != null">
-      order by ${orderByClause}
-    </if>
+  select
+  <if test="distinct">
+    distinct
+  </if>
+  <include refid="Base_Column_List" />
+  from tb_user
+  <if test="_parameter != null">
+    <include refid="Example_Where_Clause" />
+  </if>
+  <if test="orderByClause != null">
+    order by ${orderByClause}
+  </if>
   </select>
   <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
     select 
@@ -236,4 +236,8 @@
       updated = #{updated,jdbcType=TIMESTAMP}
     where id = #{id,jdbcType=BIGINT}
   </update>
+
+  <select id="selectByUserName" parameterType="java.lang.String" resultMap="BaseResultMap">
+    SELECT * FROM tb_user user WHERE user.username = #{userName}
+  </select>
 </mapper>

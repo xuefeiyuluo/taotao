@@ -10,6 +10,8 @@ import java.util.List;
  */
 public interface ItemService {
     List itemList(HashMap map);
-    Integer addItem(Item item);
 
+    List queryItemContent(String content);
+
+    Integer addItem(Item item);
 }

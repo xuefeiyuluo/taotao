@@ -312,4 +312,9 @@
   <select id="queryItemList" parameterType="java.util.Map" resultType="com.sparrow.taotao.Item">
     SELECT * FROM tb_item LIMIT #{start},#{end}
   </select>
+
+
+  <select id="queryItemContent" parameterType="java.lang.String" resultType="com.sparrow.taotao.Item">
+    SELECT * FROM tb_item WHERE tb_item.title LIKE '${value}'
+  </select>
 </mapper>

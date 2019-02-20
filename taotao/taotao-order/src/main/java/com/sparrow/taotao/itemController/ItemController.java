@@ -8,7 +8,9 @@ import com.sparrow.taotao.OrderItem;
 import com.sparrow.taotao.service.ItemCatSerVice;
 import com.sparrow.taotao.service.ItemService;
 import com.sparrow.taotao.service.OrderItemService;
+import com.sparrow.taotao.utils.DateUtils;
 import com.sparrow.taotao.utils.JsonFormat;
+import com.sparrow.taotao.utils.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -32,6 +34,51 @@ public class ItemController {
     private ItemCatSerVice itemCatSerVice;
     @Autowired
     private OrderItemService orderItemService;
+
+
+
+    // http://localhost:8080/item/searchItemContent?content=手机
+    @ResponseBody
+    @RequestMapping("/searchItemContent")
+    public JSON searchItemContent(HttpServletRequest req) {
+        JSONObject json = new JSONObject();
+        String content = req.getParameter("content");
+        if (!StringUtils.isEmpty(content)) {
+            return JsonFormat.jsonSuccessWithMsgResult("请输入正确的查询内容",json);
+        }
+
+        String temp = content.replace(" ","");
+        StringBuffer stringBuffer = new StringBuffer("%");
+        for (int i = 0; i < temp.length(); i++) {
+            stringBuffer.append(temp.charAt(i) + "%");
+        }
+
+        String newContent = stringBuffer.toString();
+
+        List<Item> searchList = itemService.queryItemContent(newContent);
+
+        if (searchList.size() > 0) {
+            List<JSONObject> jsonList = new ArrayList<>();
+            for (Item item: searchList) {
+                JSONObject itemJson = new JSONObject();
+                itemJson.put("title",item.getTitle());
+                itemJson.put("sellPoint",item.getSellPoint());
+                itemJson.put("price",item.getPrice());
+                itemJson.put("num",item.getNum());
+                itemJson.put("barcode",item.getBarcode());
+                itemJson.put("image",item.getImage());
+                itemJson.put("cid",item.getCid());
+                itemJson.put("status",item.getStatus());
+                itemJson.put("created", DateUtils.formatDate(item.getCreated(),null));
+                itemJson.put("updated", DateUtils.formatDate(item.getUpdated(),null));
+                jsonList.add(itemJson);
+            }
+            return JsonFormat.jsonSuccessWithMsgResult("查询成功",jsonList);
+        } else {
+            return JsonFormat.jsonSuccessWithMsgResult("查询的结果为空",json);
+        }
+    }
+
 
 
     // http://localhost:8080/item/addItem?title=手机&sellPoint=便宜&price=200&num=1&image=www.baidu.com&cid=560&status=1

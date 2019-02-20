@@ -59,4 +59,11 @@ public class ItemServiceImpl implements ItemService {
         // 产品的规格参数
         return itemParamItemMapper.insert(itemParamItem);
     }
+
+
+    @Override
+    public List queryItemContent(String content) {
+        List<Item> searchList = itemMapper.queryItemContent(content);
+        return searchList;
+    }
 }

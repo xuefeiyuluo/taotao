@@ -33,4 +33,6 @@ public interface ItemMapper {
 
     List<Item> queryItemList(HashMap map);
 
+    List<Item> queryItemContent(String content);
+
 }
